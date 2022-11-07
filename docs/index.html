@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <link href="styles.css" rel="stylesheet">
+    <link href="floating-windows.css" rel="stylesheet">
+    <link href="custom-styles.css" rel="stylesheet">
+    <link href="navigation.css" rel="stylesheet">
+    <title>СПуО «Посейдон»</title>
+</head>
+<body>
+<div class="always-on-top-block left-gradient"></div>
+<div class="main-wrapper">
+
+    <div>
+        <header>
+            <div>
+                <img class="image__logo" src="../assets/logo.jpg" , align="left">
+                <h1 class="bordered-text">Студенческий Путинный Отряд "Посейдон"</h1>
+            </div>
+            <q>Путина не любит слабых!</q>
+        </header>
+    </div>
+
+    <main>
+        <nav>
+            <div class="topnav">
+                <a class="active" href="#home">Главная</a>
+                <a href="#team">Наши бойцы</a>
+                <a href="#history">История отряда</a>
+            </div>
+        </nav>
+
+        <h2 class="bordered-text gallery__header">Кто мы такие?</h2>
+
+        <div>
+            <div style="display: inline-block;">
+                <section class="bordered-window first-window">
+                <span class="upper__window__bar">
+                    <span class="upper__window__bar__bar_button"></span>
+                </span>
+                    <div class="info">
+                        <h3>Кто мы?</h3>
+                        <dt><b>Добро пожаловать</b> на официальную страницу единственного в Санкт-Петербурге и
+                            неповторимого
+                            во всём мире студенческого путинного отряда «Посейдон»!
+                        </dt>
+                        <dd>Для справки: <b>путина</b> — это время, в течение которого производится лов рыбы.</dd>
+                    </div>
+                </section>
+            </div>
+            <div style="display: inline-block;">
+                <img class="main__image__1" src="../assets/poseidon1.jpg">
+            </div>
+        </div>
+
+        <div>
+            <div style="display: inline-block;">
+                <img class="main__image__2" src="../assets/poseidon2.jpg">
+            </div>
+            <div style="display: inline-block;">
+                <section class="bordered-window second-window">
+                <span class="upper__window__bar">
+                    <span class="upper__window__bar__bar_button"></span>
+                </span>
+                    <div class="info">
+                        <h3><b>Так что даст тебе отряд?</b></h3>
+                        <p><b>Погнали по порядку:</b></p>
+                        <ul class="goals">
+                            <li>Работа на лето<br></li>
+                            <li>Путешествие на другой конец нашей необъятной родины<br></li>
+                            <li>Горы (буквально) рыбы, икры, крабов<br></li>
+                            <li>Денежка (много)<br></li>
+                            <li>Отдых от городских дел и суеты<br></li>
+                            <li>Друзья (а может быть, и любовь) на всю жизнь<br></li>
+                            <li>Незабываемый опыт<br></li>
+                            <li>Закалку тела и духа<br></li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <section class="gallery-container">
+            <h2 class="bordered-text gallery__header">Наш комсостав</h2>
+            <div class="images-container">
+                <div class="image-container">
+                    <img class="image" src="../assets/komandir.jpg">
+                    <p><b>Командир</b></br>Белоконь Артём</p>
+                </div>
+                <div class="image-container">
+                    <img class="image" src="../assets/komissar.jpg">
+                    <p><b>Комиссар</b></br>Тома Наталья</p>
+                </div>
+                <div class="image-container">
+                    <img class="image" src="../assets/master.jpg">
+                    <p><b>Мастер</b></br>Холодов Виктор</p>
+                </div>
+                <div class="image-container">
+                    <img class="image" src="../assets/rpc.jpg">
+                    <p><b>Руководитель пресс-центра</b></br>Якимова Яна</p>
+                </div>
+            </div>
+        </section>
+
+
+        <h2 class="bordered-text">Хочешь попасть к нам на собрание? Тогда скорее заполняй форму ниже!</h2>
+        <section class="bordered-window form-window">
+                <span class="upper__window__bar upper__window__bar__for__form">
+                    <span class="upper__window__bar__bar_button"></span>
+                </span>
+            <div class="info">
+                <div class="form">
+                    <div>
+                        <label for="nickname">Твоё имя:</label>
+                    </div>
+                    <div>
+                        <input type="text" id="nickname" name="nickname">
+                    </div>
+                    <div>
+                        <label for="user-email">Ссылка на VK:</label>
+                    </div>
+                    <div>
+                        <input type="email" id="user-email" name="user-email">
+                    </div>
+                    <div>
+                        <label for="content">А тут ты можешь немного рассказать о себе:</label>
+                    </div>
+                    <div>
+                        <textarea rows="10" cols="50" id="content" name="content"></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" value="Отправить">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+            <pre>
+ .----------------.  .----------------.  .----------------.  .----------------.  .----------------.  .----------------.  .----------------.  .-----------------.
+| .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. |
+| |   ______     | || |     ____     | || |    _______   | || |  _________   | || |     _____    | || |  ________    | || |     ____     | || | ____  _____  | |
+| |  |_   __ \   | || |   .'    `.   | || |   /  ___  |  | || | |_   ___  |  | || |    |_   _|   | || | |_   ___ `.  | || |   .'    `.   | || ||_   \|_   _| | |
+| |    | |__) |  | || |  /  .--.  \  | || |  |  (__ \_|  | || |   | |_  \_|  | || |      | |     | || |   | |   `. \ | || |  /  .--.  \  | || |  |   \ | |   | |
+| |    |  ___/   | || |  | |    | |  | || |   '.___`-.   | || |   |  _|  _   | || |      | |     | || |   | |    | | | || |  | |    | |  | || |  | |\ \| |   | |
+| |   _| |_      | || |  \  `--'  /  | || |  |`\____) |  | || |  _| |___/ |  | || |     _| |_    | || |  _| |___.' / | || |  \  `--'  /  | || | _| |_\   |_  | |
+| |  |_____|     | || |   `.____.'   | || |  |_______.'  | || | |_________|  | || |    |_____|   | || | |________.'  | || |   `.____.'   | || ||_____|\____| | |
+| |              | || |              | || |              | || |              | || |              | || |              | || |              | || |              | |
+| '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' |
+ '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------'
+        </pre>
+    </footer>
+</div>
+<div class="always-on-top-block right-gradient"></div>
+</body>
+</html>
