@@ -109,3 +109,7 @@ logo .tree {
 logo:hover .tree {
     display: inline;
 }
+
+b {
+    text-transform: uppercase;
+}
