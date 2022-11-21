@@ -4,7 +4,7 @@ html, body {
 
 body, html {
     height: 100%;
-    font-family: Arial, serif;
+    font-family: 'Roboto', sans-serif;
     background: #ffffff;
 }
 
@@ -19,7 +19,7 @@ main {
 
 h1 {
     letter-spacing: normal;
-    font-family: Arial, serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
     overflow-wrap: break-word;
@@ -30,7 +30,7 @@ h1 {
 
 h2 {
     letter-spacing: normal;
-    font-family: Arial, serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
     overflow-wrap: break-word;
@@ -47,7 +47,23 @@ h3 {
 q {
     size: 30px;
     font-style: italic;
-    text-align: right;
+    padding: 0px;
+    text-align: center;
+}
+
+q:hover .quote {
+    text-decoration: underline;
+    text-transform: uppercase;
+    display: none;
+}
+
+quote .b {
+    display: none;
+}
+
+quote:hover .b {
+    display: inline;
+    text-decoration: underline;
 }
 
 p {
@@ -55,7 +71,7 @@ p {
 }
 
 code {
-    font-family: "Courier New", "Courier", monospace;
+    font-family: 'Roboto', sans-serif;
     color: #6a2cce;
     padding-left: 3px;
     border: black;
@@ -76,4 +92,20 @@ pre {
 img {
     border-radius: 6px;
     box-shadow: rgb(114, 1, 107) 0px 5px 15px;
+}
+
+dt, dd {
+    text-indent: 1.5em;
+}
+
+logo:hover .logo {
+    display: none;
+}
+
+logo .tree {
+    display: none;
+}
+
+logo:hover .tree {
+    display: inline;
 }
