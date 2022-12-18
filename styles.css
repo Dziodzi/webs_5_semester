@@ -151,3 +151,7 @@ pre {
         display: none;
     }
 }
+
+.loading-time {
+    text-align: right;
+}
