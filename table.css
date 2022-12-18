@@ -22,7 +22,7 @@ table th, table td {
 }
 
 table tr:hover td {
-    background: yellow;
+    background: #dfff0e;
     font-weight: 700;
     color: black;
 }

@@ -55,6 +55,6 @@ a:hover {
 }
 
 a.active {
-    color: yellow;
+    color: #dfff0e;
     text-shadow: 0 0 7px #fff;
 }

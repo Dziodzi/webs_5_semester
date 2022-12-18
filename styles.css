@@ -28,23 +28,22 @@ main {
     background: #151515;
 }
 
-h1, h2, p, blockquote, cite {
+h2, h3, p, blockquote, cite {
     letter-spacing: normal;
     color: #ffffff;
     font-family: 'Roboto', sans-serif;
-    font-weight: 700;
+    font-weight: 450;
     text-transform: uppercase;
     line-height: 0.3;
     text-align: left;
-
 }
 
-.hello-section{
-    padding-top: 50px;
+.hello-section, .programs-section, .reviews-section{
+    padding-top: 45px;
 }
 
 .yellow-text {
-    color: yellow;
+    color: #dfff0e;
 }
 
 .name {
@@ -55,6 +54,18 @@ h1, h2, p, blockquote, cite {
 h1 {
     overflow-wrap: break-word;
     font-size: 3em;
+    color: #ffffff;
+    line-height: 1.1;
+    margin-top: 1em;
+    font-weight: 450;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 35px;
+}
+
+h2 {
+    overflow-wrap: break-word;
+    font-size: 2em;
     color: #ffffff;
     line-height: 1.1;
     margin-top: 1em;
@@ -71,15 +82,18 @@ h3 {
 
 p {
     overflow-wrap: break-word;
-    font-size: 1em;
+    font-size: 1.1em;
     color: #ffffff;
     line-height: 1.1;
     font-weight: 200;
+    text-transform: none;
 }
 
 blockquote, cite  {
     line-height: 1.1;
     font-weight: 200;
+    text-transform: none;
+    font-style: italic  ;
 }
 
 cite {
@@ -118,7 +132,7 @@ table {
 
 pre {
     text-align: center;
-    color: yellow;
+    color: #dfff0e;
     right: 1em;
     left: 1em;
 }
@@ -127,21 +141,12 @@ pre {
     display: block;
 }
 
-.image {
-    display: block;
-    margin: 0 auto;
-    border-radius: 2%;
-    box-shadow: 0 0 7px #fff,
-    0 0 10px #fff,
-    0 0 21px #72016b;
-}
-
 .table-container {
     margin-top: 5em;
     margin-bottom: 1em;
 }
 
-@media only screen and (max-width:890px) {
+@media only screen and (max-width:900px) {
     .logo {
         display: none;
     }
