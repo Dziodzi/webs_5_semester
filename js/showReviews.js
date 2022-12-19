@@ -17,7 +17,7 @@ async function loadReviews() {
 
 function showLoadingIndicator() {
     const loadingSection = document.getElementById('preloader');
-    loadingSection.innerHTML = '<img src="assets/preloader.gif" alt="Loading">';
+    loadingSection.innerHTML = '<img class="preloaderGif" src="assets/preloader.gif" alt="Loading">';
 }
 
 function hideLoadingIndicator() {

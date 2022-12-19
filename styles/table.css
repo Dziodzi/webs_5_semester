@@ -21,6 +21,7 @@ table th, table td {
     vertical-align: middle;
     position: relative;
     background: black;
+    width: auto;
 }
 
 table tr:hover td {
