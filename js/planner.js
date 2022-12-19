@@ -56,8 +56,8 @@ function toggleTodo(id) {
 todoInput.addEventListener('submit', (event) => {
     event.preventDefault();
     const formData = new FormData(todoInput);
-    const idea = formData.get('idea');
-    if (!idea) {
+    const idea = formData.get('idea').trim();
+    if (idea.required || (idea.length < 3)) {
         alert('Напиши бизнес-план, бизнес-брат!');
     } else {
         addTodo({
