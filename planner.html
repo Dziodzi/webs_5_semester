@@ -29,15 +29,17 @@
 </header>
 
 <main>
+    <div class="menu">
     <section class="plans-section">
         <h2>Планер настоящего бизнесмена</h2>
-        <p>Есть идеи для дополнительного заработка? Запиши её сюда, чтобы не забыть!</p>
+        <p>Есть идеи для дополнительного заработка? Запиши их сюда, чтобы не забыть!</p>
         <form class="constructor__form">
             <label for="constructor__input__idea" class="constructor__input__idea-label">Твоя идея для увеличения
                 личного капитала</label>
             <input id="constructor__input__idea" name="idea" type="text" size="100" minlength="3"
-                   placeholder="Украсть пенсию у бабушки">
-            <input type="submit" class="submit__button">
+                   placeholder="Например: ''Украсть пенсию у бабушки''">
+
+            <input type="submit" class="submit__button" value="Добавить">
         </form>
         <button class="clear__button" onclick="clearTodos()">Очистить</button>
 
@@ -52,6 +54,21 @@
             </div>
         </template>
     </section>
+        <img class="gif" src="assets/gifka.gif">
+    </div>
 </main>
+
+<footer>
+    <pre>
+    _    _____   _     _  _  ______     ___
+   / \  |___ /  / \  _| || ||__  / |   / _ \
+  / _ \   |_ \ / _ \|_  ..  _|/ /| |  | | | |
+ / ___ \ ___) / ___ \_      _/ /_| |__| |_| |
+/_/   \_\____/_/   \_\|_||_|/____|_____\___/
+            </pre>
+    <p class="loading-time" id="loading-time">Время загрузки страницы составило </p>
+    <h3>©Azazin. All rights reserved.</h3>
+</footer>
+
 </body>
 </html>

@@ -69,6 +69,11 @@
     margin-top: 0.5em;
 }
 
+.menu {
+    display: flex;
+    flex-direction: row;
+}
+
 @media screen and (max-width: 900px) {
     .submit__button, .clear__button {
         font-size: 0.6em;
