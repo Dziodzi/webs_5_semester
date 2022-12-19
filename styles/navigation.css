@@ -49,11 +49,12 @@
 }
 
 a:hover {
-    color: #d45aff;
+    color: #dfff0e;
     transition: color 0.5s linear;
 }
 
 a.active {
-    color: #dfff0e;
+    color: white;
     text-shadow: 0 0 7px #fff;
+    border: #dfff0e 1px solid;
 }

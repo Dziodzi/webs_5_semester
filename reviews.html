@@ -25,7 +25,7 @@
             <li><a class="navbar-button" href="team.html">Наша команда</a></li>
             <li><a class="navbar-button" href="programs.html">Программы обучения</a></li>
             <li><a class="navbar-button" href="planner.html">Планер</a></li>
-            <li><a class="navbar-button" href="reviews.html">Отзывы</a></li>
+            <li><a class="navbar-button active" href="reviews.html">Отзывы</a></li>
             <script src="js/navLocation.js"></script>
         </ul>
     </nav>
@@ -42,9 +42,15 @@
         <div id="reviews" class="reviews"></div>
         <template id="reviewItem">
             <div class="reviewItem">
-                <h4></h4>
-                <p></p>
-                <br>
+                <p><b>Имя: </b>
+                    <span>${newPost["name"]}</span>
+                </p>
+                <p><b>Email: </b>
+                    <span>${newPost["email"]}</span>
+                </p>
+                <p><b>Комментарий: </b>
+                    <span>${newPost["body"]}</span>
+                </p>
             </div>
         </template>
     </article>

@@ -1,15 +1,15 @@
 async function loadReviews() {
-    clearReviewsSection();
-    showLoadingIndicator();
 
+    showLoadingIndicator();
     try {
         const randomNumber = Math.floor(Math.random() * 100 + 1);
         const response = await fetch(`https://jsonplaceholder.typicode.com/posts/${randomNumber}/comments`);
         const comments = await response.json();
 
+        clearReviewsSection();
         addReviews(comments);
     } catch(error) {
-        alert("Oops! Something went wrong.");
+        alert("Охохонюшки! Всё сломалось. Ошибка на стороне клиента, лично у меня всё супер!");
     }
 
     hideLoadingIndicator();
@@ -26,19 +26,21 @@ function hideLoadingIndicator() {
 }
 
 function addReviews(comments) {
-    const reviewTemplate = document.querySelector('#reviewItem');
     const reviewsSection = document.getElementById('reviews');
 
     comments.forEach(comment => {
-        const reviewItem = reviewTemplate.content.cloneNode(true);
+        const reviewItem = document.querySelector('#reviewItem');
+        let clone = reviewItem.content.cloneNode(true);
 
-        const name = reviewItem.querySelector('div h4');
-        const text = reviewItem.querySelector('div p');
+        const review = {"name": comment.name, "email": comment.email, "body": comment.body};
 
-        name.innerHTML = comment.name;
-        text.innerHTML = comment.body;
+        let rev = clone.querySelectorAll("span");
 
-        reviewsSection.appendChild(reviewItem);
+        rev[0].textContent = review["name"];
+        rev[1].textContent = review["email"];
+        rev[2].textContent = review["body"];
+
+        reviewsSection.appendChild(clone);
     });
 }
 
