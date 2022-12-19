@@ -28,7 +28,7 @@ main {
     background: #151515;
 }
 
-h2, h3, p, blockquote, cite {
+h2, h3, h4, p, blockquote, cite {
     letter-spacing: normal;
     color: #ffffff;
     font-family: 'Roboto', sans-serif;
@@ -37,6 +37,7 @@ h2, h3, p, blockquote, cite {
     line-height: 0.3;
     text-align: left;
 }
+
 
 .hello-section, .programs-section, .reviews-section, .plans-section {
     padding-top: 45px;
@@ -82,6 +83,15 @@ h3 {
     line-height: 1.1;
     margin-top: 1em;
     text-align: right ;
+}
+
+h4 {
+    overflow-wrap: break-word;
+    font-size: 0.85em;
+    color: #ffffff;
+    line-height: 1.1;
+    margin-top: 1em;
+    text-align: left;
 }
 
 p {
