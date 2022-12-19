@@ -7,6 +7,7 @@ table {
     padding: 10px 10px;
     display: grid;
     grid-template-columns: 34% 22% 22% 22%;
+    grid-gap: 0;
 }
 
 thead, tbody, tr{
@@ -35,5 +36,5 @@ table tr:hover td:after {
 
 tr:nth-child(even) td {background: #000000
 }
-tr:nth-child(odd) td {background: #151515
+tr:nth-child(odd) td {background: rgba(136, 136, 136, 0.98);
 }
