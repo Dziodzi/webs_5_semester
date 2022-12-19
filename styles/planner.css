@@ -74,7 +74,7 @@
     flex-direction: row;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
     .submit__button, .clear__button {
         font-size: 0.6em;
     }
