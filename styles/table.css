@@ -6,8 +6,8 @@ table {
     margin: 0 auto;
     padding: 10px 10px;
     display: grid;
-    grid-template-columns: 34% 22% 22% 22%;
-    grid-gap: 0;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-gap: 5px;
 }
 
 thead, tbody, tr{
