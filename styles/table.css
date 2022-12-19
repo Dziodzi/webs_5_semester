@@ -35,7 +35,7 @@ table tr:hover td:after {
     width: 105%;
 }
 
-tr:nth-child(even) td {background: #000000
+tr:nth-child(odd) td {background: #2c2b2b
 }
-tr:nth-child(odd) td {background: rgba(136, 136, 136, 0.98);
+tr:nth-child(even) td {background: rgba(136, 136, 136, 0.98);
 }
