@@ -9,13 +9,14 @@
     <link href="table.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <script src="js/loading-time.js"></script>
     <title>СК - команда</title>
 </head>
 
 <body>
 <header>
     <nav class="top-menu">
-        <img class="logo" src="assets/logo.png">
+        <img class="logo" src="assets/logo1.png">
         <ul class="menu-main">
             <li><a class="navbar-button" href="index.html">Главная</a></li>
             <li><a class="navbar-button active" href="team.html">Наша команда</a></li>
@@ -27,34 +28,37 @@
 
 <main>
 
-<section class="hello-section">
-    <h2>Наша команда</h2>
-    <div class="image-container">
-        <p>Здравствуйте, меня зовут Роман. Я веду курсы <b>"Студия красоты"</b> по бизнесу. <br> Я и моя команда научим тебя зарабатывать, научим тебя делать деньги, научим жизни. </p>
-        <div class="gallery">
-            <div class="images-container">
-                <div class="gallery-item"><img src="assets/aza2.jpg"></div>
-                <p><b>Основатель</b></br>Роман Крит</p>
+    <article>
+        <section class="hello-section">
+            <h2>Наша команда</h2>
+            <div class="image-container">
+                <p>Здравствуйте, меня зовут Роман. Я веду курсы <b>"Студия красоты"</b> по бизнесу. <br> Я и моя команда
+                    научим тебя зарабатывать, научим тебя делать деньги, научим жизни. </p>
+                <div class="gallery">
+                    <div class="images-container">
+                        <div class="gallery-item"><img src="assets/aza2.jpg"></div>
+                        <p><b>Основатель</b></br>Роман Крит</p>
+                    </div>
+                    <div class="images-container">
+                        <div class="gallery-item"><img src="assets/valakas.jpg"></div>
+                        <p><b>Пажилая чимчира</b></br>Валерий Жмышенко</p>
+                    </div>
+                    <div class="images-container">
+                        <div class="gallery-item"><img src="assets/dziodzi.jpg"></div>
+                        <p><b>Ведущий IT-специалист</b></br>Григорий Шатинский</p>
+                    </div>
+                    <div class="images-container">
+                        <div class="gallery-item"><img src="assets/ayaz.jpg"></div>
+                        <p><b>Местный дурачок</b></br>Аяз Шабутдинов</p>
+                    </div>
+                </div>
             </div>
-            <div class="images-container">
-                <div class="gallery-item"><img src="assets/valakas.jpg"></div>
-                <p><b>Пажилая чимчира</b></br>Валерий Жмышенко</p>
-            </div>
-            <div class="images-container">
-                <div class="gallery-item"><img src="assets/dziodzi.jpg"></div>
-                <p><b>Ведущий IT-специалист</b></br>Григорий Шатинский</p>
-            </div>
-            <div class="images-container">
-                <div class="gallery-item"><img src="assets/ayaz.jpg"></div>
-                <p><b>Местный дурачок</b></br>Аяз Шабутдинов</p>
-            </div>
-        </div>
-    </div>
-    <blockquote>Да, ты работаешь на работе за 30 тысяч в месяц, я могу сделать <span style="color: yellow"><b>4 млн за час</b>
+            <blockquote>Да, ты работаешь на работе за 30 тысяч в месяц, я могу сделать <span style="color: yellow"><b>4 млн за час</b>
             </span><cite> - Роман Крит</cite></blockquote>
-</section>
-    </main>
-    <footer>
+        </section>
+    </article>
+</main>
+<footer>
     <pre>
     _    _____   _     _  _  ______     ___
    / \  |___ /  / \  _| || ||__  / |   / _ \
@@ -62,7 +66,8 @@
  / ___ \ ___) / ___ \_      _/ /_| |__| |_| |
 /_/   \_\____/_/   \_\|_||_|/____|_____\___/
             </pre>
-        <h3>©Azazin. All rights reserved.</h3>
-    </footer>
+    <p class="loading-time" id="loading-time">Время загрузки страницы составило </p>
+    <h3>©Azazin. All rights reserved.</h3>
+</footer>
 </body>
 </html>
