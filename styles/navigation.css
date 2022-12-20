@@ -1,20 +1,20 @@
-.topnav {
+.nav {
     border-width: thin;
     border-style: double;
     border-color: #000000;
     overflow: hidden;
     background: linear-gradient(-180deg,#39b1d4 -.04%,#865de8 52.2%);
-    border-radius: .75rem 0 .75rem 0;
+    border-radius: .75em 0 .75em 0;
     box-shadow: rgb(57, 111, 255);
 }
 
-.topnav a {
+.nav a {
     float: left;
     color: #ffffff;
     text-align: center;
     text-decoration: none;
     letter-spacing: normal;
-    font-family: Arial, serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     padding: 14px 16px;
     text-transform: uppercase;
@@ -25,12 +25,12 @@
     box-shadow: rgb(114, 1, 107) 0px 2px 2px;
 }
 
-.topnav a:hover {
+.nav a:hover {
     background: linear-gradient(-180deg,#39b1d4 -.04%,#865de8 52.2%);
     color: #ff9239;
 }
 
-.topnav a.active {
+.nav a.active {
     background:linear-gradient(-180deg, #ff9239, #d45aff);
     color: #ffffff;
 }
