@@ -20,7 +20,7 @@
     height: 3em;
     width: 43%;
     border-radius: 10px;
-    border: rgba(12, 12, 12, 0.98) solid 1px;
+    border: #242424 solid 1px;
 }
 
 .submit__button, .clear__button, .delete__button {
@@ -32,8 +32,9 @@
     right: 0;
     text-align: center;
     font-size: 0.8em;
-    width: 43%;
-    background: rgb(44, 43, 43);
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #A60540;
     letter-spacing: normal;
     color: #ffffff;
     font-family: 'Roboto', sans-serif;
@@ -41,12 +42,17 @@
     text-transform: uppercase;
     border-radius: 10px;
     border: #000000 solid 1px;
+    cursor: pointer;
+}
+
+.submit__button {
+    background: #4a4094;
+    color: rgb(255, 255, 255);
 }
 
 .delete__button {
     font-size: 0.7em;
-    width: 100%;
-    background: rgba(136, 136, 136, 0.98);
+    width:100%;
 }
 
 .constructor__todo {
@@ -74,7 +80,7 @@
     flex-direction: row;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
     .submit__button, .clear__button {
         font-size: 0.6em;
     }
